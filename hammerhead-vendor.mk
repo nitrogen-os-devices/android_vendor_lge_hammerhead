@@ -29,7 +29,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 # Apps
 PRODUCT_PACKAGES += \
     OmaDmclient \
-    qcrilmsgtunnel \
     shutdownlistener \
     SprintHiddenMenu \
     TimeService \
