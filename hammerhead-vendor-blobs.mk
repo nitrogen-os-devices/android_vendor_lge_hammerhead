@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(LOCAL_PATH)/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     $(LOCAL_PATH)/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
+    $(LOCAL_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(LOCAL_PATH)/lib/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so \
     $(LOCAL_PATH)/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(LOCAL_PATH)/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
@@ -149,6 +150,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     $(LOCAL_PATH)/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     $(LOCAL_PATH)/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    $(LOCAL_PATH)/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     $(LOCAL_PATH)/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(LOCAL_PATH)/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(LOCAL_PATH)/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -166,6 +168,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     $(LOCAL_PATH)/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    $(LOCAL_PATH)/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     $(LOCAL_PATH)/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
     $(LOCAL_PATH)/vendor/lib/libFuzzmmstillomxenc.so:system/vendor/lib/libFuzzmmstillomxenc.so \
     $(LOCAL_PATH)/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -236,6 +239,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     $(LOCAL_PATH)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     $(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    $(LOCAL_PATH)/xbin/wlutil:system/xbin/wlutil \
     $(LOCAL_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     $(LOCAL_PATH)/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     $(LOCAL_PATH)/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
