@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     $(LOCAL_PATH)/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     $(LOCAL_PATH)/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
-    $(LOCAL_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(LOCAL_PATH)/lib/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so \
     $(LOCAL_PATH)/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(LOCAL_PATH)/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
